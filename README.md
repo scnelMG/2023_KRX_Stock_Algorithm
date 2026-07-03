@@ -54,13 +54,7 @@
 |-- docs/
 |   `-- reproducibility.md
 `-- data/
-    |-- README.md
-    |-- train.csv
-    |-- X_1st_year.csv
-    |-- sample_submission.csv
-    |-- test_sample_submission.csv
-    |-- try_submission.csv
-    `-- try_final_2_submission.csv
+    `-- README.md
 ```
 
 ## 실행 방법
@@ -80,9 +74,9 @@ jupyter notebook
 
 Google Drive에는 KRX 대회 폴더, 제출 파일 폴더, 원본 데이터 성격의 파일이 확인되었습니다. 이 자료들은 재배포 조건이 명확하지 않을 수 있으므로 추가 업로드하지 않았습니다.
 
-현재 저장소에 포함된 대회 데이터와 제출 CSV는 기존 GitHub 산출물입니다. 포트폴리오 제출 전에는 대회 약관에 맞춰 `data/`와 제출 파일을 비공개 전환하거나 샘플화하는 방안을 검토하는 것이 안전합니다.
+대회 데이터와 제출 CSV는 현재 공개 브랜치에서 제외했습니다. 포트폴리오 제출 시에는 README, 노트북, 재현 가능성 문서를 중심으로 검토하는 구조입니다.
 
-자세한 기준은 [data/README.md](data/README.md)를 참고하세요.
+자세한 기준은 [data/README.md](data/README.md)와 [docs/public-safety.md](docs/public-safety.md)를 참고하세요.
 
 ## 포트폴리오 관점에서 보여주는 역량
 

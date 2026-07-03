@@ -9,7 +9,7 @@
 - Python 3.x
 - Jupyter Notebook
 - pandas, numpy, scikit-learn, statsmodels
-- `data/train.csv`와 제출 샘플 파일
+- 대회에서 제공한 원본 데이터와 제출 샘플 파일을 로컬 `data/`에 별도 배치
 
 ## 권장 실행 순서
 
