@@ -1,5 +1,7 @@
 # 2023 KRX Stock Algorithm
 
+<p align="center">2023 제2회 KRX 주식 투자 알고리즘 경진대회 · 금융 시계열 예측 · Python · Jupyter Notebook</p>
+
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![Finance](https://img.shields.io/badge/Finance-Stock%20Algorithm-0F766E)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
@@ -72,18 +74,16 @@ jupyter notebook
 
 ## 데이터 공개 기준
 
-Google Drive에는 KRX 대회 폴더, 제출 파일 폴더, 원본 데이터 성격의 파일이 확인되었습니다. 이 자료들은 재배포 조건이 명확하지 않을 수 있으므로 추가 업로드하지 않았습니다.
-
-대회 데이터와 제출 CSV는 현재 공개 브랜치에서 제외했습니다. 포트폴리오 제출 시에는 README, 노트북, 재현 가능성 문서를 중심으로 검토하는 구조입니다.
+대회 원본 데이터와 제출 산출물은 재배포 조건이 명확하지 않을 수 있어 공개 저장소에 포함하지 않았습니다. 따라서 이 저장소는 노트북, 실행 방법, 재현 가능성 문서를 중심으로 분석 흐름을 설명합니다.
 
 자세한 기준은 [data/README.md](data/README.md)와 [docs/public-safety.md](docs/public-safety.md)를 참고하세요.
 
-## 포트폴리오 관점에서 보여주는 역량
+## 이 프로젝트에서 다룬 역량
 
 - 금융 시계열 데이터의 시간 순서와 검증 경계를 고려한 실험 경험
 - baseline부터 제출 파일 생성까지 이어지는 경진대회 파이프라인 이해
 - 공개 가능한 설명과 재배포가 불명확한 데이터의 경계 구분
-- 금융권 IT/디지털 직무에서 필요한 데이터 처리, 검증, 산출물 관리 감각
+- 데이터 처리, 검증, 산출물 관리 경험
 
 ## 한계와 개선 방향
 
