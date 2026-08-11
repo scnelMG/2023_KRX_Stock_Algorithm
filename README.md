@@ -1,7 +1,5 @@
 # 2023 KRX Stock Algorithm
 
-<p align="center">2023 제2회 KRX 주식 투자 알고리즘 경진대회 · 금융 시계열 예측 · Python · Jupyter Notebook</p>
-
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![Finance](https://img.shields.io/badge/Finance-Stock%20Algorithm-0F766E)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
@@ -15,6 +13,7 @@
 | 항목 | 내용 |
 | --- | --- |
 | 대회 | 2023 제2회 KRX 주식 투자 알고리즘 경진대회 |
+| 대회 링크 | [DACON 리더보드](https://dacon.io/competitions/official/236117/leaderboard) |
 | 도메인 | 금융 데이터, 주식 시계열 |
 | 문제 유형 | 종목별 시계열 예측 및 제출 파일 생성 |
 | 주요 접근 | ARIMA baseline, window slicing, feature window 구성 |
