@@ -14,6 +14,10 @@
 | --- | --- |
 | 대회 | 2023 제2회 KRX 주식 투자 알고리즘 경진대회 |
 | 대회 링크 | [DACON 리더보드](https://dacon.io/competitions/official/236117/leaderboard) |
+| 최종 결과 | 121위 / 1,323명 |
+| 최종 점수 | 0.133529 |
+| 팀 | 이게뭐시당 |
+| 팀원 | 이성 · 벌꿀오소리맨 · 푸바오의대나무 |
 | 도메인 | 금융 데이터, 주식 시계열 |
 | 문제 유형 | 종목별 시계열 예측 및 제출 파일 생성 |
 | 주요 접근 | ARIMA baseline, window slicing, feature window 구성 |
@@ -51,14 +55,29 @@
 |-- [Baseline]_ARIMA.ipynb
 |-- window_slicing.ipynb
 |-- test.ipynb
-|-- try_final_3_submission.csv
 |-- docs/
-|   `-- reproducibility.md
+|   |-- reproducibility.md
+|   |-- public-safety.md
+|   `-- verification-report.md
 `-- data/
-    `-- README.md
+    |-- README.md
+    `-- 대회 원본 데이터·제출 파일 (로컬 전용, gitignored)
 ```
 
 ## 실행 방법
+
+### 로컬 데이터 준비
+
+대회 제공 파일은 공개 저장소에 포함하지 않습니다. 노트북 실행 전 아래 경로에 로컬로 배치해야 합니다.
+
+```text
+data/train.csv
+data/X_1st_year.csv
+data/sample_submission.csv
+sample_submission.csv  # [Baseline]_ARIMA.ipynb에서만 참조
+```
+
+### 환경 설치
 
 ```bash
 pip install pandas numpy scikit-learn statsmodels jupyter
@@ -75,7 +94,7 @@ jupyter notebook
 
 대회 원본 데이터와 제출 산출물은 재배포 조건이 명확하지 않을 수 있어 공개 저장소에 포함하지 않았습니다. 따라서 이 저장소는 노트북, 실행 방법, 재현 가능성 문서를 중심으로 분석 흐름을 설명합니다.
 
-자세한 기준은 [data/README.md](data/README.md)와 [docs/public-safety.md](docs/public-safety.md)를 참고하세요.
+관련 문서: [데이터 공개 기준](data/README.md) · [공개 안전성](docs/public-safety.md) · [재현 가능성](docs/reproducibility.md) · [검증 기록](docs/verification-report.md)
 
 ## 이 프로젝트에서 다룬 역량
 
