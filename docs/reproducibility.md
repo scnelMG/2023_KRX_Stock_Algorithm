@@ -6,16 +6,18 @@
 
 ## 실행 전제
 
-- Python 3.x
-- Jupyter Notebook
-- pandas, numpy, scikit-learn, statsmodels
+- Python 3.9.7 (원본 노트북 메타데이터 기준)
+- Jupyter Notebook과 표준 `python3` 커널
+- `pip install -r requirements.txt`
 - 대회에서 제공한 원본 데이터와 제출 샘플 파일을 로컬 `data/`에 별도 배치
 
 ## 권장 실행 순서
 
 1. `[Baseline]_ARIMA.ipynb`
-2. `window_slicing.ipynb`
+2. `window_slicing.ipynb`의 마지막 제출 파이프라인
 3. 제출 CSV 생성 및 형식 확인
+
+`window_slicing.ipynb`는 대회 당시 탐색 셀을 함께 보존한 노트북입니다. 일부 초기 셀은 뒤쪽에서 정의되는 변수를 참조하므로 전체 노트북을 위에서 아래로 실행하는 재현용 문서로 사용하지 않습니다. 실제 제출 흐름과 한계는 [모델링·제출 파이프라인 메모](modeling-notes.md)를 참고합니다.
 
 ## 공개 제한
 

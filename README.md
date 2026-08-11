@@ -45,7 +45,7 @@
 
 ### 3. 제출 파일 생성
 
-`sample_submission.csv` 형식에 맞춰 예측 결과를 `try_submission.csv`, `try_final_2_submission.csv`, `try_final_3_submission.csv`로 정리했습니다. 제출 파일은 모델 결과 자체보다 대회 형식과 컬럼 정합성을 확인하는 산출물입니다.
+`sample_submission.csv` 형식에 맞춰 예측 결과를 제출 CSV로 정리했습니다. 보관본의 최종 파이프라인은 `try_final_3_submission.csv`를 생성하며, 제출 파일은 모델 결과 자체보다 대회 형식과 컬럼 정합성을 확인하는 산출물입니다.
 
 ## 저장소 구성
 
@@ -74,13 +74,12 @@
 data/train.csv
 data/X_1st_year.csv
 data/sample_submission.csv
-sample_submission.csv  # [Baseline]_ARIMA.ipynb에서만 참조
 ```
 
 ### 환경 설치
 
 ```bash
-pip install pandas numpy scikit-learn statsmodels jupyter
+pip install -r requirements.txt
 jupyter notebook
 ```
 
@@ -94,7 +93,7 @@ jupyter notebook
 
 대회 원본 데이터와 제출 산출물은 재배포 조건이 명확하지 않을 수 있어 공개 저장소에 포함하지 않았습니다. 따라서 이 저장소는 노트북, 실행 방법, 재현 가능성 문서를 중심으로 분석 흐름을 설명합니다.
 
-관련 문서: [데이터 공개 기준](data/README.md) · [공개 안전성](docs/public-safety.md) · [재현 가능성](docs/reproducibility.md) · [검증 기록](docs/verification-report.md)
+관련 문서: [모델링·제출 파이프라인](docs/modeling-notes.md) · [데이터 공개 기준](data/README.md) · [공개 안전성](docs/public-safety.md) · [재현 가능성](docs/reproducibility.md) · [검증 기록](docs/verification-report.md)
 
 ## 이 프로젝트에서 다룬 역량
 
