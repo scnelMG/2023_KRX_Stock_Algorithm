@@ -81,6 +81,12 @@ jupyter notebook
 
 세부 내용은 [모델링 메모](docs/modeling-notes.md), [검증 프로토콜](docs/validation-protocol.md), [재현성 메모](docs/reproducibility.md), [데이터 공개 기준](data/README.md)을 참고하세요.
 
+## 민감 데이터 정리
+
+대회 제공 원본 데이터와 제출 산출물은 저장소의 전체 Git 히스토리와 연결된 포크 참조에서 제거했으며, GitHub Support의 서버 측 가비지 컬렉션 및 캐시 정리까지 완료했습니다.
+
+이 저장소에는 재현에 필요한 코드와 비민감 문서만 보관합니다. 대회 데이터나 생성된 제출 파일을 새 커밋에 추가하지 마세요. 데이터의 이용·보관 조건은 [데이터 공개 기준](data/README.md)을 따릅니다.
+
 ## 개선 포인트
 
 후속 실험을 수행할 수 있는 권한 있는 데이터가 생긴다면, 시점 고정 스냅샷과 walk-forward validation을 사용해 ARIMA·선형 회귀·다른 후보 모델을 같은 기간에서 비교하고, 대회 규칙에 맞는 Sharpe 지수와 거래비용 민감도를 기록하는 것이 다음 단계입니다.
