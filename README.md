@@ -1,10 +1,5 @@
 # 2023 KRX Stock Algorithm
 
-![Python](https://img.shields.io/badge/Python-3.9-3776AB?logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
-![Model](https://img.shields.io/badge/Model-ARIMA%20%7C%20Linear%20Regression-2563EB)
-![Domain](https://img.shields.io/badge/Domain-Financial%20Time%20Series-0F766E)
-
 > 2023 제2회 KRX 주식 투자 알고리즘 경진대회에서 종목별 가격·재무 피처로 Long–Short 순위 제출 파일을 만든 금융 시계열 프로젝트입니다.
 
 ## 결과
@@ -45,7 +40,6 @@
 |   |-- portfolio-evidence.md    # Notion·Drive·코드 기반 사실 정리
 |   |-- validation-protocol.md   # 대회 규칙과 향후 검증 방법
 |   |-- reproducibility.md       # 재현 가능한 범위와 제한
-|   `-- github-support-purge-request.md
 `-- data/README.md               # 비공개·파기 대상 데이터 경계
 ```
 
@@ -73,10 +67,11 @@ jupyter notebook
 2. `window_slicing.ipynb`를 위에서 아래로 실행
 3. 생성된 `try_final_3_submission.csv`의 컬럼과 순위 유일성 확인
 
-## 재현성·데이터 공개 경계
+## 공개 범위와 한계
 
 - 이 저장소는 **역사적 경진대회 구현 기록**입니다. 비공개 대회 데이터와 외부 시장 데이터 때문에 같은 점수 재현을 보장하지 않습니다.
-- 원본 코드·문서에는 MIT 라이선스가 적용되지만, 대회 데이터·제출 파일·외부 조회 데이터에는 적용되지 않습니다.
+- 공개: 코드, 재현 절차, 대회 규칙에 저촉되지 않는 문서
+- 제외: NH 원천 데이터·제출 파일·제한 자료·비밀값
 - 실제 서비스 화면 또는 발표 자료가 보관돼 있지 않아, 생성 이미지나 오류가 섞인 차트를 넣지 않았습니다.
 
 세부 내용은 [모델링 메모](docs/modeling-notes.md), [검증 프로토콜](docs/validation-protocol.md), [재현성 메모](docs/reproducibility.md), [데이터 공개 기준](data/README.md)을 참고하세요.
@@ -84,3 +79,7 @@ jupyter notebook
 ## 개선 포인트
 
 후속 실험을 수행할 수 있는 권한 있는 데이터가 생긴다면, 시점 고정 스냅샷과 walk-forward validation을 사용해 ARIMA·선형 회귀·다른 후보 모델을 같은 기간에서 비교하고, 대회 규칙에 맞는 Sharpe 지수와 거래비용 민감도를 기록하는 것이 다음 단계입니다.
+
+## 이용 안내
+
+이 저장소는 포트폴리오·학습 기록 열람을 위해 공개합니다. 코드·문서·이미지의 재사용, 수정, 배포는 사전 문의가 필요합니다.
